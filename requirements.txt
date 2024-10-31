@@ -1,0 +1,4 @@
+streamlit==1.20.0
+python-dotenv==1.0.0
+google-generative-ai==<version>  # Replace <version> with the actual version you are using
+Pillow==9.5.0
