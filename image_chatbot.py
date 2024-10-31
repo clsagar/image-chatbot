@@ -9,7 +9,7 @@ load_dotenv()
 
 # Main function to run the Streamlit app
 def main():
-    genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
+    genai.configure(api_key = st.secrets["your-API-KEY"])
     model = genai.GenerativeModel("gemini-1.5-pro-latest")
 
     # Initialize chat session in Streamlit if not already present
